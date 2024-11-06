@@ -1,0 +1,43 @@
+/* .box {
+    text-align: center;
+} */
+.outerBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+.box form {
+    background-color: rgb(244, 244, 244);
+    padding: 40px;
+    border-radius: 15px;
+}
+.title {
+    font-weight: 500;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #05b2ec;
+}
+.input label {
+    font-weight: bold;
+    padding-right: 5px;
+}
+.input input {
+    width: 100%;
+    outline: none;
+    padding: 5px;
+    padding-left: 8px;
+    border-radius: 5px;
+    border: 1px solid rgb(209, 209, 209);
+}
+.last {
+    text-align: center;
+}
+.last a {
+    color: #05b2ec;
+}
+.last button {
+    background-color: #05b2ec;
+    border-radius: 5px;
+}
